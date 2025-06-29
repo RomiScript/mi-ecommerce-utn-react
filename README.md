@@ -1,12 +1,39 @@
 # React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Este proyecto es una tienda online simple creada con React. Permite visualizar productos, agregar al carrito, y navegar entre las distintas secciones del sitio. Es un ejercicio práctico para afianzar conceptos de React, manejo de estados y componentes.
 
-Currently, two official plugins are available:
+Tecnologías usadas:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+React + Vite
 
-## Expanding the ESLint configuration
+JavaScript (ES6+)
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+React Router 
+
+Context API 
+UseState
+
+Funcionalidades principales
+
+Listado de productos con imágenes, nombre y precio
+
+Detalle individual de cada producto
+
+Botones de "Ver detalles" y "Comprar"
+
+Navegación entre las diferentes páginas del sitio
+
+Próximas mejoras
+
+Implementar backend para persistencia de datos
+
+Agregar autenticación de usuario
+
+Mejorar diseño responsivo y UX
+
+Optimizar rendimiento y carga de imágenes
+
+Autor
+Romina Martínez
+
+
