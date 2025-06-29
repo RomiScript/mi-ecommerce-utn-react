@@ -32,7 +32,7 @@ const ProductDetail = () => {
         style={{
           marginTop: '20px',
           padding: '10px 20px',
-          backgroundColor: '#007bff',
+          backgroundColor: '#005bff',
           color: '#fff',
           border: 'none',
           borderRadius: '5px',

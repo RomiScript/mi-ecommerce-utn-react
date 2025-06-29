@@ -13,12 +13,14 @@ const Home = () => {
 
   return (
     <div>
-      <h1>Productos destacados</h1>
+      <h1>¡Bienvenido/a a La Tiendita!</h1>
       <div style={{
         display: 'grid',
         gridTemplateColumns: 'repeat(auto-fit, minmax(200px, 1fr))',
         gap: '20px',
-        marginTop: '20px'
+        marginTop: '20px',
+        color: '#333',
+        padding: '0 20px'
       }}>
         {products.map(product => (
           <ProductCard key={product.id} product={product} />
