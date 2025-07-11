@@ -7,7 +7,7 @@ const Home = () => {
   useEffect(() => {
     fetch('https://fakestoreapi.com/products')
       .then(res => res.json())
-      .then(data => setProducts(data.slice(0, 4))) // Tomamos los primeros 4
+      .then(data => setProducts(data.slice(0, 4))) // 
       .catch(error => console.error('Error al obtener productos:', error));
   }, []);
 
