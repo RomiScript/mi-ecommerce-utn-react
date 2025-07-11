@@ -42,7 +42,7 @@ const Login = () => {
           }}
           onClick={(e) => {
             e.preventDefault();
-            alert('Inicio de sesión simulado ✨');
+            alert('Inicio de sesión simulado ');
           }}
         >
           Iniciar Sesión
